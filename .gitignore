@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual environment folders
+.venv/
+venv/
+ENV/
+
+# OS or IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local configuration or secrets
+*.env
+*.local
+
+# Logs and temporary files
+*.log
+*.temp
+
+# Exclude output data if auto-generated
+data/output/
