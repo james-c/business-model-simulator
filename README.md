@@ -33,15 +33,6 @@ A Python-based simulation framework for modeling blockchain-related business str
 
 ---
 
-## Key Features
-
-- **Modular Design**: Classes for operations, transaction models, business models, and the simulator are loosely coupled, making it easier to adapt or extend to new scenarios.  
-- **Parameter Sweeping**: Built-in examples to explore multiple parameter combinations (e.g., transaction volume growth, overhead rates, revenue factors).  
-- **Time-Based Updates**: Mechanisms (such as `update_for_time_step`) can be implemented to support dynamic changes in cost and revenue parameters over multiple time steps.  
-- **Results Analysis**: Scripts for output aggregation and basic statistical computations on the resulting data.  
-
----
-
 ## Getting Started
 
 1. **Clone or Download** the repository to a local environment.  
@@ -81,14 +72,6 @@ A Python-based simulation framework for modeling blockchain-related business str
 
 5. **Analyze Results**  
    Export results to a file (e.g., CSV), then process or visualize them using any of the provided scripts.
-
----
-
-## Further Customization
-
-- **Subclasses**: Extend `Operation` to implement specialized cost or revenue formulas.  
-- **Time-Dependent Logic**: Employ methods such as `update_for_time_step` in `TransactionModel` or `Operation` to adjust parameters dynamically.  
-- **Advanced Analysis**: Utilize libraries like Pandas or Matplotlib for additional reporting, plotting, or statistical operations in the analysis script.
 
 ---
 
